@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,1)), url("/frontend/images/background-pelangi-razer-teknologi-3d-wallpaper-1680x1050_5\ \(1\).jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden
+}
+
+ul.header {
+    background-color: transparent;
+    text-align: right ;
+}
+
+section.opening {
+    color: rgb(245, 245, 245);
+    font-style: bold;
+    font-family: sans-serif
+    
+}
+
+h1.heading1 {
+    font-size: 30px;
+    display: inline;
+}
+
+img.logo {
+    position:absolute;
+    size: 60px;
+    top: 97px;
+    left: 16px;
+    width: 175px;
+}
+
+div.baris {
+    
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+}
+
+div.kolom {
+    margin: 20px;
+    flex: 50%;
+    text-align: center;
+}
+
+img.insta {
+    width: 350px;
+}
+
+h1.heading2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size:11mm;
+    ;
+}
+
+h2.heading3 {
+    font-size: 5,5mm;
+}
+
+button.tombol {
+    background-color: #4CAF50;
+    border: navajowhite;
+    color: rgb(0, 255, 98);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer {
+    white-space: normal;
+    text-align: center;
+    background-color: black;
+    padding: 4px;
+    color: white;
+}
